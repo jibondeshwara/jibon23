@@ -1,0 +1,343 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+/* Header style css start */
+
+.header {
+    background-color: whitesmoke;
+}
+
+.header .img-logo {}
+
+.header .img-logo img {
+    width: 92px;
+}
+
+.header .main-menu {
+  
+
+}
+
+.header .main-menu ul {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.header .main-menu ul li {
+    display: inline-block;
+    margin-left: -4px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.header .main-menu ul li a {
+    padding: 10px 11px;
+    margin-top: 14px;
+    display: inline-block;
+}
+
+.main-menu ul li::after > a {
+    /* content: '';
+    position: absolute;
+    top: 58px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+    transform: .4s;
+    transform: scaleX(0); */
+
+    
+
+
+}
+
+.main-menu ul li a:hover::after {
+    transform: scaleX(1);
+}
+
+
+button {
+    margin-top: 8px;
+    padding: 6px 18px;
+    color: #3964eb;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 24px;
+    background: white;
+    border: none;
+}
+
+/* Header style css End */
+/* Banner style css Start */
+.banner-section {
+    background: #f6f9fc;
+}
+
+.banner-section .banner-lekha {
+    margin-top: 91px;
+}
+
+.banner-section h2 {
+    font-size: 41px;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+
+.banner-section p {
+    color: #9b9090;
+    margin-bottom: 24px;
+}
+
+.banner-section .button-1 {
+    border-radius: inherit;
+    background: #3763eb;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 8px 18px;
+}
+
+.banner-image {position: relative;}
+
+.banner-image img {
+    width: 628px;
+    height: 628px;
+    overflow: hidden;
+    border-radius: 50% 0 50% 50%;
+
+    
+    /* border-radius: 50%;
+    position: absolute;
+    top: -100px;
+    right: -145px;
+    height: 700px;
+    width: 700px;
+    overflow: hidden; */
+}
+
+/* Banner style css End */
+
+/* Slider style css Start */
+
+.backgound {
+    position: relative;
+    z-index: 1;
+
+}
+
+.backgound::after {
+
+    content: "";
+    height: 270px;
+    width: 270px;
+    top: 20px;
+    left: -50px;
+    position: absolute;
+    background-image: url(image/doted.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+
+
+
+}
+
+.slider-section {}
+
+.slid-wright {
+    padding: 80px 0;
+
+}
+
+.slid-wright h6 {
+    color: #7d81ee;
+}
+
+.slid-wright h4 {
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.slid-wright p {
+    color: #9e98b1;
+    font-size: 14px;
+    margin: 50px 0;
+}
+
+.line {
+
+    height: 2px;
+    width: 48px;
+    background-color: #9d8fec;
+}
+
+.backgrond {
+
+    background-image: url(./image/doted.png);
+
+}
+
+.slid-div {
+
+    background-color: #f9fcff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    width: 103%;
+    border-radius: 10px;
+
+}
+
+.slid-div:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.slid-div h4 {
+    font-size: 22px;
+}
+
+/* .slid-div .icon-section {
+    text-align: left;
+    background: #5252f0;
+    display: inline-block;
+    padding: 9px;
+    color: white;
+    border-radius: 40px 40px 40px 0px;
+    font-size: 30px;
+    margin: 20px 0;
+} */
+
+
+.line{
+    height: 2px;
+    width: 37px;
+    background-color: #2353e9;
+    
+    margin: 17px 0;
+}
+
+
+
+.slid-div .icon-section i {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #3763ea;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 50% 50% 50% 0;
+}
+
+.slid-div .icon-section:hover i {
+    background-color: #fff;
+    color: #3763ea;
+}
+
+
+/* Slider style css End */
+/* Footer banner style css End */
+
+
+
+.footer-img {
+    background: linear-gradient(#4e6bbdba, #576ba4c2), url(./image/video-bg.jpg)no-repeat center center;
+    background-size: cover;
+    padding: 200px 0;
+    margin-top: 90px;
+
+
+
+
+}
+
+
+.footer-img .footer-text {
+    text-align: center;
+    color: white;
+}
+
+.footer-img .footer-text h5 {}
+
+.line-braeak {
+    height: 2px;
+    width: 92px;
+    background-color: #fff;
+    margin-left: 48%;
+    margin: 25px 46%;
+}
+
+.footer-img .footer-text h3 {
+    padding: 12px 0;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.footer-img .footer-text p {}
+
+.palybtn{
+    width: 70px;
+    height: 70px;
+    background: white;
+    color: violet;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 28px;
+    text-align: center;
+    line-height: 70px;
+    position: relative;
+
+}
+
+.palybtn::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 5px solid red;
+    border-radius: 50%;
+}
+
+
+.palybtn::before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 110%;
+    height: 110%;
+    border: 5px solid green;
+    border-radius: 50%;
+
+
+}
+
+@keyframes myanimation{
+    from{border-color: red}
+    to{border-color: aqua;}
+}
+
+
+
+
+
+
+
+/* Footer banner css End */
